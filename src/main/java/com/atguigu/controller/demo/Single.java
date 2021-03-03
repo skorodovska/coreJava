@@ -33,7 +33,7 @@ public class Single {
 
 public class Single {
     private Single(){
-        System.out.println("懒汉式");
+        System.out.println("懒汉式22");
     }
     private static Single s = null;
     public static Single getInstance() {
