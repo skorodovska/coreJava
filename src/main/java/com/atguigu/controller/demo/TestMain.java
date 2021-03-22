@@ -3,7 +3,7 @@ package com.atguigu.controller.demo;
 import com.atguigu.controller.tools.ArrayTool;
 
 public class TestMain {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         /*int[] arr = {10,2,5,4};
         ArrayTool.printArr(arr);
         ArrayTool.bubbleSort(arr);
