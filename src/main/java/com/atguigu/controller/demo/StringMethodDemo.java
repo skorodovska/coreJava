@@ -27,13 +27,55 @@ package com.atguigu.controller.demo;
  *      2.6 判断内容是否相同，并忽略大小写
  *          boolean equalsIgnoreCase()
  *
+ * 3.转换
+ *      3.1 将字符数组转成字符串
+ *          构造函数：String(char[])
+ *                  String(char[] data,int offset,int count):将字符数组中一部分转成字符串，从offset包含offset
+ *          静态方法：static String copyValueOf(char[])
+ *                  static String copyValueOf(char[] data,int offset,int count)
+ *                  static String valueOf(char[])
+ *      3.2 将字符串转成字符数组
+ *          char[] toCharArray()
+ *      3.3 将字节数组转成字符串
+ *          构造函数：String(byte[])
+ *                  String(byte[] data,int offset,int count):将字节数组中一部分转成字符串，从offset包含offset
+ *      3.4 将字符串转成字节数组
+ *          byte[] getBytes()
+ *      3.5 将基本数据类型转成字符串
+ *          static String valueOf(int);
+ *          static String valueOf(double);
+ *          3+"" == String.value(3)
+ *  4.替换
+ *      String replace(oldChar,newChar) 字符替换
+ *      String replace(oldCharSequence,newCharSequence) 字符串替换
+ *  5.切割
+ *      String[] split(regex)
+ *  6.子串 获取字符串中的一部分
+ *      String substring(begin)
+ *      String substring(begin,end) 包含头不包含尾
+ *  7.转换，去除空格，比较
+ *      7.1 将字符串转成大写或者小写
+ *          String toUpperCase();
+ *          String toLowerCase();
+ *      7.2 将字符串两端的多个空格去除
+ *          String trim();
+ *      7.3 对两个字符串进行自然顺序的比较
+ *          int compareTo(String);
+ *      
  */
 public class StringMethodDemo {
     public static void main(String[] args) {
         String s1 = "abc";
         String s2 = "abcaaadc";
-        String s3 = new String("ABC");
+        String s3 = "ABC";
         String s4 = "ArrayDemo.java";
+        String s5 = "  abc  ";
+        String s6 = "abc";
+        String s7 = "a1c";
+        char[] chars = {'1','2','3','4'};
+        byte[] bytes = {1,65,97,4,5}; //对应ASCII码表 65:A  97:a，也可以直接传入字符，可以自动转换
+        String name = "zhangsan,lisi,wangwu";
+
 
 
         //length
@@ -69,6 +111,84 @@ public class StringMethodDemo {
         //equalsIgnoreCase
         System.out.println("s3 equalsIgnoreCase s1:" + s3.equalsIgnoreCase(s1));
 
+        //String char[] offset count
+        System.out.println("chars String char[] offset count:" + new String(chars,1,2));
+
+        //copyValueOf char[] offset count
+        System.out.println("chars copyValueOf char[] offset count:" + String.copyValueOf(chars,1,2));
+
+        //String byte[] offset count
+        System.out.println("bytes String byte[] offset count:" + new String(bytes,1,2));
+
+        //toCharArray
+        System.out.println("s1 toCharArray length:" + s1.toCharArray().length);
+
+        //replace
+        System.out.println("s1 replace old:" + s1 + ";new:" + s1.replace("a", "p"));
+
+        //split
+        String[] names = name.split(",");
+        for (int i = 0; i < names.length; i++) {
+            System.out.println("names index " + i + ":" + names[i]);
+        }
+
+        //substring 包含头不包含尾
+        System.out.println("s1 substring 1 2 :" + s1.substring(1,3));
+
+        //toUpperCase
+        System.out.println("s4 toUpperCase old:" + s4 + "; new:" + s4.toUpperCase());
+
+        //toLowerCase
+        System.out.println("s4 toLowerCase old:" + s4 + "; new:" + s4.toLowerCase());
+
+        //trim
+        System.out.println("s5 trim old:" + s5 + "; new:" + s5.trim());
+
+        //compareTo
+        System.out.println("s6 compareTo s7:" + s6.compareTo(s7));
+
+        //反转
+        System.out.println(reverseString("abc"));
+
+        //计数
+        System.out.println(getSubCount("absdfsadjfksasajf","a"));
+
+        System.out.println("abbbc".indexOf("b",1));
 
     }
+
+    public static String reverseString(String s) {
+        char[] chars = s.toCharArray();
+        for (int start = 0, end = chars.length - 1; start < end; start++, end--) {
+            swap(chars, start, end);
+        }
+        return new String(chars);
+    }
+
+    public static void swap(char[] chars,int start,int end) {
+        char temp = chars[start];
+        chars[start] = chars[end];
+        chars[end] = temp;
+    }
+
+    public static int getSubCount(String str,String key) {
+        int count = 0;
+        int index = 0;
+        while((index = str.indexOf(key))!=-1) {
+            str = str.substring(index+key.length());
+            count++;
+        }
+        return count;
+    }
+
+    public static int getSubCountMax(String str,String key) {
+        int count = 0;
+        int index = 0;
+        while((index = str.indexOf(key,index))!=-1) {
+            index = index + key.length();
+            count++;
+        }
+        return count;
+    }
+
 }
