@@ -1,9 +1,5 @@
 package com.atguigu.controller.thread;
 
-import com.sun.org.apache.xpath.internal.operations.Bool;
-
-import javax.swing.text.StyledEditorKit;
-
 /**
  * @Author: liyinghai
  * @Date: 2021/3/18 20:19
