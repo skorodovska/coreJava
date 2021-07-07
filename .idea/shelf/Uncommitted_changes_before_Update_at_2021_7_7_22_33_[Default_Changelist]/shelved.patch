@@ -1,0 +1,19 @@
+Index: src/main/java/com/atguigu/controller/thread/sgg/ThreadMethod.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.atguigu.controller.thread.sgg;\r\n\r\nimport static java.lang.Thread.yield;\r\n\r\n/**\r\n * 测试Thread中的常用方法：\r\n * 1. start():启动当前线程；调用当前线程的run()\r\n * 2. run(): 通常需要重写Thread类中的此方法，将创建的线程要执行的操作声明在此方法中\r\n * 3. currentThread():静态方法，返回执行当前代码的线程\r\n * 4. getName():获取当前线程的名字\r\n * 5. setName():设置当前线程的名字\r\n * 6. yield():方法只是提出申请释放CPU资源，至于能否成功释放由JVM决定\r\n * 7. join():在线程a中调用线程b的join(),此时线程a就进入阻塞状态，直到线程b完全执行完以后，线程a才\r\n * 结束阻塞状态。\r\n * 8. stop():已过时。当执行此方法时，强制结束当前线程。\r\n * 9. sleep(long millitime):让当前线程“睡眠”指定的millitime毫秒。在指定的millitime毫秒时间内，当前\r\n * 线程是阻塞状态。\r\n * 10. isAlive():判断当前线程是否存活\r\n * <p>\r\n * <p>\r\n * 线程的优先级：\r\n * 1.\r\n * MAX_PRIORITY：10\r\n * MIN _PRIORITY：1\r\n * NORM_PRIORITY：5  -->默认优先级\r\n * 2.如何获取和设置当前线程的优先级：\r\n * getPriority():获取线程的优先级\r\n * setPriority(int p):设置线程的优先级\r\n * <p>\r\n * 说明：高优先级的线程要抢占低优先级线程cpu的执行权。但是只是从概率上讲，高优先级的线程高概率的情况下\r\n * 被执行。并不意味着只有当高优先级的线程执行完以后，低优先级的线程才执行。\r\n *\r\n * @Author: liyinghai\r\n * @Date: 2021/7/6 22:39\r\n */\r\n\r\npublic class ThreadMethod {\r\n    public static void main(String[] args) {\r\n        ThreadMethodTest threadMethodTest = new ThreadMethodTest(\"xiancheng1\");\r\n        //threadMethodTest.setName(\"线程1\");\r\n        threadMethodTest.start();\r\n\r\n        Thread.currentThread().setName(\"主线程\");\r\n        for (int i = 0; i < 100; i++) {\r\n            System.out.println(Thread.currentThread().getName() + \" : \" + i);\r\n            if (i == 20) {\r\n                try {\r\n                    threadMethodTest.join();\r\n                } catch (InterruptedException e) {\r\n                    e.printStackTrace();\r\n                }\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\nclass ThreadMethodTest extends Thread {\r\n    public ThreadMethodTest(String name) {\r\n        super(name);\r\n    }\r\n\r\n    @Override\r\n    public void run() {\r\n        for (int i = 0; i < 100; i++) {\r\n            System.out.println(Thread.currentThread().getName() + \" : \" + i);\r\n            if (i % 20 == 0) {\r\n                yield();\r\n            }\r\n        }\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/atguigu/controller/thread/sgg/ThreadMethod.java b/src/main/java/com/atguigu/controller/thread/sgg/ThreadMethod.java
+--- a/src/main/java/com/atguigu/controller/thread/sgg/ThreadMethod.java	(revision ae3ae64d43d0f3ccdf831e5fa25561aa44864b9d)
++++ b/src/main/java/com/atguigu/controller/thread/sgg/ThreadMethod.java	(date 1625668421346)
+@@ -64,7 +64,7 @@
+         for (int i = 0; i < 100; i++) {
+             System.out.println(Thread.currentThread().getName() + " : " + i);
+             if (i % 20 == 0) {
+-                yield();
++                Thread.yield();
+             }
+         }
+     }
