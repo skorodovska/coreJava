@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1adf1ff5-980f-4062-a6b6-8756285a3984" name="Default Changelist" comment="feature-master-core">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/controller/fordemo/WhileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/controller/thread/sgg/ThreadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/controller/thread/sgg/ThreadMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/controller/thread/sgg/ThreadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/controller/fordemo/ForTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/controller/fordemo/ForTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/skorodovska/coreJava" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1phJpQRKlDtYm66tem1PnpMrbU3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/atguigu/controller/thread" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\coreJava\src\main\java\com\atguigu\controller\thread" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ThreadMethod">
+    <configuration name="ForTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.controller.fordemo.ForTest" />
+      <module name="spring-boot-01-helloworld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.controller.fordemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ForTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.controller.fordemo.ForTest1" />
+      <module name="spring-boot-01-helloworld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.controller.fordemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.controller.thread.sgg.ThreadDemo" />
+      <module name="spring-boot-01-helloworld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.controller.thread.sgg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.controller.thread.sgg.ThreadMethod" />
+      <module name="spring-boot-01-helloworld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.controller.thread.sgg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.controller.thread.sgg.ThreadTest" />
+      <module name="spring-boot-01-helloworld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.controller.thread.sgg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloWorldApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-01-helloworld" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.HelloWorldApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ThreadMethod" />
+        <item itemvalue="Application.ThreadDemo" />
+        <item itemvalue="Application.ThreadTest" />
+        <item itemvalue="Application.ForTest" />
+        <item itemvalue="Application.ForTest1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1adf1ff5-980f-4062-a6b6-8756285a3984" name="Default Changelist" comment="" />
+      <created>1615629571484</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615629571484</updated>
+      <workItem from="1615629573008" duration="1264000" />
+      <workItem from="1615691315221" duration="926000" />
+      <workItem from="1615713972464" duration="3253000" />
+      <workItem from="1615724184893" duration="1671000" />
+      <workItem from="1615810986592" duration="5001000" />
+      <workItem from="1615980330801" duration="6974000" />
+      <workItem from="1616068839595" duration="5294000" />
+      <workItem from="1616323393638" duration="4988000" />
+      <workItem from="1616414097582" duration="5567000" />
+      <workItem from="1616596476572" duration="4246000" />
+      <workItem from="1616919025952" duration="602000" />
+      <workItem from="1617025439127" duration="3655000" />
+      <workItem from="1617110059259" duration="4096000" />
+      <workItem from="1617804028377" duration="3416000" />
+      <workItem from="1617893895123" duration="639000" />
+      <workItem from="1618014256182" duration="491000" />
+      <workItem from="1618014893654" duration="2712000" />
+      <workItem from="1618500875871" duration="613000" />
+      <workItem from="1618837147232" duration="2402000" />
+      <workItem from="1618875954022" duration="1574000" />
+      <workItem from="1618919837710" duration="1430000" />
+      <workItem from="1619019484332" duration="779000" />
+      <workItem from="1619189531443" duration="845000" />
+      <workItem from="1619247655913" duration="1687000" />
+      <workItem from="1619274724524" duration="2102000" />
+      <workItem from="1619358403198" duration="4495000" />
+      <workItem from="1619534418003" duration="2834000" />
+      <workItem from="1620478609992" duration="944000" />
+      <workItem from="1621133555069" duration="1588000" />
+      <workItem from="1621262132286" duration="4096000" />
+      <workItem from="1622904667529" duration="1856000" />
+      <workItem from="1622943389151" duration="1616000" />
+      <workItem from="1622986437445" duration="4909000" />
+      <workItem from="1623071350770" duration="1010000" />
+      <workItem from="1623595287773" duration="1426000" />
+      <workItem from="1623639876603" duration="1032000" />
+      <workItem from="1623657283562" duration="8453000" />
+      <workItem from="1624155990628" duration="3344000" />
+      <workItem from="1624978879908" duration="527000" />
+      <workItem from="1625578982678" duration="189000" />
+      <workItem from="1625579184763" duration="5951000" />
+    </task>
+    <task id="LOCAL-00001" summary="feature-master-多线程">
+      <created>1616338194633</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616338194633</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feature-master-多线程">
+      <created>1616338457626</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1616338457626</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feature-master-多线程">
+      <created>1616414198277</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1616414198277</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feature-master-String">
+      <created>1616600822159</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1616600822159</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feature-master-String">
+      <created>1617804376190</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1617804376190</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feature-master-StringBufferDemo">
+      <created>1618014335807</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1618014335807</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feature-master-core">
+      <created>1623675294267</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1623675294267</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feature-master-多线程" />
+    <MESSAGE value="feature-master-String" />
+    <MESSAGE value="feature-master-StringBufferDemo" />
+    <MESSAGE value="feature-master-core" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature-master-core" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
