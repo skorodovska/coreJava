@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1adf1ff5-980f-4062-a6b6-8756285a3984" name="Default Changelist" comment="feature-master-core">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/controller/thread/sgg/ThreadMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/controller/thread/sgg/ThreadMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/controller/thread/sgg/ThreadTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/controller/thread/sgg/WindowsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/controller/thread/sgg/WindowsTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/controller/thread/sgg/sgg20210713/WindowTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/controller/thread/sgg/sgg20210713/WindowTest3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/controller/thread/sgg/sgg20210713/WindowTest4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/controller/thread/sgg/sgg20210713/WindowsTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/controller/thread/sgg/ThreadMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/controller/thread/sgg/ThreadMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/controller/thread/sgg/ThreadMethodTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/controller/thread/sgg/ThreadMethodTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,46 +58,21 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/atguigu/controller/thread" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/atguigu/controller/thread/sgg/sgg20210713" />
     <property name="project.structure.last.edited" value="Global Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\coreJava\src\main\java\com\atguigu\controller\thread\sgg\sgg20210713" />
       <recent name="D:\workspace\coreJava\src\main\java\com\atguigu\controller\thread" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreadMethod">
-    <configuration name="ForTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.controller.fordemo.ForTest" />
-      <module name="spring-boot-01-helloworld" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.controller.fordemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ForTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.controller.fordemo.ForTest1" />
-      <module name="spring-boot-01-helloworld" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.controller.fordemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.controller.thread.sgg.ThreadDemo" />
+  <component name="RunManager" selected="Application.WindowTest3">
+    <configuration name="ThreadTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.controller.thread.sgg.ThreadTest1" />
       <module name="spring-boot-01-helloworld" />
       <extension name="coverage">
         <pattern>
@@ -100,8 +84,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.controller.thread.sgg.ThreadMethod" />
+    <configuration name="WindowTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.controller.thread.sgg.sgg20210713.WindowTest3" />
+      <module name="spring-boot-01-helloworld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.controller.thread.sgg.sgg20210713.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WindowsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.controller.thread.sgg.WindowsTest" />
       <module name="spring-boot-01-helloworld" />
       <extension name="coverage">
         <pattern>
@@ -113,8 +110,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.controller.thread.sgg.ThreadTest" />
+    <configuration name="WindowsTest1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.controller.thread.sgg.sgg20210713.WindowsTest1" />
+      <module name="spring-boot-01-helloworld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.controller.thread.sgg.sgg20210713.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WindowsTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.controller.thread.sgg.WindowsTest1" />
       <module name="spring-boot-01-helloworld" />
       <extension name="coverage">
         <pattern>
@@ -148,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ThreadMethod" />
-        <item itemvalue="Application.ThreadDemo" />
-        <item itemvalue="Application.ThreadTest" />
-        <item itemvalue="Application.ForTest" />
-        <item itemvalue="Application.ForTest1" />
+        <item itemvalue="Application.WindowTest3" />
+        <item itemvalue="Application.WindowsTest1 (1)" />
+        <item itemvalue="Application.WindowsTest1" />
+        <item itemvalue="Application.ThreadTest1" />
+        <item itemvalue="Application.WindowsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +215,9 @@
       <workItem from="1624978879908" duration="527000" />
       <workItem from="1625578982678" duration="189000" />
       <workItem from="1625579184763" duration="5951000" />
-      <workItem from="1625668212514" duration="303000" />
+      <workItem from="1625668212514" duration="3785000" />
+      <workItem from="1626095673057" duration="5579000" />
+      <workItem from="1626184167946" duration="5664000" />
     </task>
     <task id="LOCAL-00001" summary="feature-master-多线程">
       <created>1616338194633</created>
@@ -263,7 +275,21 @@
       <option name="project" value="LOCAL" />
       <updated>1625668335617</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feature-master-core">
+      <created>1625668527165</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1625668527165</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feature-master-core">
+      <created>1625668556095</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1625668556095</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
